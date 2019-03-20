@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/byte5digital/Linked-Nodes-Content-App</projectUrl>
+    <iconUrl>https://our.umbraco.com/media/wiki/277018/636881514170203622_relatedlinksv8_logojpg.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Add package.options dashboard for customization, create nuGet-Package</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>umbraco</tags>
+  </metadata>
+</package>
