@@ -24,7 +24,7 @@ Optionally, content and media node deletion can be automatically denied if other
 * Add Support for media nodes
 
 **v0.3.0** (20.03.2019):
-* Add package.options dashboard for customization
+* Add package.options dashboard for customization and deploy as nuGet package
 
 ## Resources
 
