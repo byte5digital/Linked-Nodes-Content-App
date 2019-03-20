@@ -1,0 +1,10 @@
+﻿input.b5LinkedNodesConfigCheckbox {
+    width: 25px;
+    height: 25px;
+}
+
+.b5LinkedNodesConfigLabel {
+    position: relative;
+    top: 6px;
+    left: 10px;
+}

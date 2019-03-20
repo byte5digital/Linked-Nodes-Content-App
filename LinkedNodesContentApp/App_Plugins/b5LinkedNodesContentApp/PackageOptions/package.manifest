@@ -1,0 +1,9 @@
+﻿{
+  "javascript": [
+    "~/App_Plugins/b5LinkedNodesContentApp/PackageOptions/packageOptions.controller.js",
+    "~/App_Plugins/b5LinkedNodesContentApp/PackageOptions/packageOptions.resource.js"
+  ],
+  "css": [
+    "~/App_Plugins/b5LinkedNodesContentApp/PackageOptions/packageOptions.css"
+  ]
+}

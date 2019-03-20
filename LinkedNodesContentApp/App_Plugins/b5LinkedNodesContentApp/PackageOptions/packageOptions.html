@@ -1,0 +1,24 @@
+﻿<div class="umb-box" ng-controller="b5.LinkedNodesContentAppPackageOptions as vm">
+    <div class="umb-box-header">
+        <div class="umb-box-header-title">
+            <h3><localize key="b5LinkedNodesContentAppInstaller_title">Thank you for installing Linked Nodes!</localize></h3>
+        </div>
+    </div>
+    <div class="umb-box-content">
+        <h4><localize key="b5LinkedNodesContentAppInstaller_overviewTitle">Customize overview:</localize></h4>
+        <p><label class="checkbox-inline"><input class="b5LinkedNodesConfigCheckbox" type="checkbox" ng-model="vm.config.OverviewShowPath" ng-checked="vm.config.OverviewShowPath" /><span class="b5LinkedNodesConfigLabel"><localize key="b5LinkedNodesContentAppInstaller_overviewShowPath">Node Path</localize></span></label></p>
+        <p><label class="checkbox-inline"><input class="b5LinkedNodesConfigCheckbox" type="checkbox" ng-model="vm.config.OverviewShowPropertyAlias" ng-checked="vm.config.OverviewShowPropertyAlias" /><span class="b5LinkedNodesConfigLabel"><localize key="b5LinkedNodesContentAppInstaller_overviewShowPropertyAlias">Property Alias</localize></span></label></p>
+        <p><label class="checkbox-inline"><input class="b5LinkedNodesConfigCheckbox" type="checkbox" ng-model="vm.config.OverviewShowId" ng-checked="vm.config.OverviewShowId" /><span class="b5LinkedNodesConfigLabel"><localize key="b5LinkedNodesContentAppInstaller_overviewShowId">Node Id</localize></span></label></p>
+        <hr />
+        <h4><localize key="b5LinkedNodesContentAppInstaller_eventsTitle">Customize events:</localize></h4>
+        <p><label class="checkbox-inline"><input class="b5LinkedNodesConfigCheckbox" type="checkbox" ng-model="vm.config.EventsPreventDeletionOfLinkedContentNodes" ng-checked="vm.config.EventsPreventDeletionOfLinkedContentNodes" /><span class="b5LinkedNodesConfigLabel"><localize key="b5LinkedNodesContentAppInstaller_eventsPreventDeletionContent">Prevent deletion of linked content nodes</localize></span></label></p>
+        <p><label class="checkbox-inline"><input class="b5LinkedNodesConfigCheckbox" type="checkbox" ng-model="vm.config.EventsPreventDeletionOfLinkedMediaNodes" ng-checked="vm.config.EventsPreventDeletionOfLinkedMediaNodes" /><span class="b5LinkedNodesConfigLabel"><localize key="b5LinkedNodesContentAppInstaller_eventsPreventDeletionMedia">Prevent deletion of linked media nodes</localize></span></label></p>
+        <hr />
+        <p><umb-button action="vm.saveConfig()" type="button" button-style="success" label="{{vm.SubmitButtonText}}" state="vm.buttonState" disabled="vm.buttonState ==='busy'"></umb-button></p>
+        <div ng-show="vm.buttonState==='busy'">
+            <p></p>
+            <p><localize key="b5LinkedNodesContentAppInstaller_saveProgress">Update is in progress...</localize></p>
+        </div>
+
+    </div>
+</div>
