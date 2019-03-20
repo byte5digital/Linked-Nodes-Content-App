@@ -25,3 +25,10 @@ Optionally, content and media node deletion can be automatically denied if other
 
 **v0.3.0** (20.03.2019):
 * Add package.options dashboard for customization
+
+
+Umbraco-Package-Url:
+https://our.umbraco.com/packages/backoffice-extensions/linked-nodes-content-app/
+
+NuGet-Url:
+https://www.nuget.org/packages/b5LinkedNodesContentApp/
