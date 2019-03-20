@@ -261,7 +261,6 @@
     <Content Include="App_Plugins\b5LinkedNodesContentApp\PackageOptions\packageOptions.css" />
     <Content Include="App_Plugins\b5LinkedNodesContentApp\PackageOptions\packageOptions.html" />
     <Content Include="App_Plugins\b5LinkedNodesContentApp\PackageOptions\packageOptions.resource.js" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Composer\b5LinkedNodesComposer.cs" />
@@ -276,14 +275,8 @@
     <Content Include="App_Plugins\b5LinkedNodesContentApp\linkedNodes.config" />
     <Content Include="App_Plugins\b5LinkedNodesContentApp\package.manifest" />
     <Content Include="App_Plugins\b5LinkedNodesContentApp\PackageOptions\package.manifest" />
-    <Content Include="App_Data\packages\createdPackages.config" />
+    <Content Include="LinkedNodesContentApp.nuspec" />
     <None Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
