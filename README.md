@@ -33,3 +33,6 @@ https://our.umbraco.com/packages/backoffice-extensions/linked-nodes-content-app/
 
 NuGet-Url:
 https://www.nuget.org/packages/b5LinkedNodesContentApp/
+
+Demonstration:
+https://www.youtube.com/watch?v=Ryt_xnWoUp0&feature=youtu.be
