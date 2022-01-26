@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Configuration;
-using System.Web;
 
 namespace byte5.LinkedNodesContentApp.Helper
 {
@@ -11,14 +10,14 @@ namespace byte5.LinkedNodesContentApp.Helper
             try
             {
                 ExeConfigurationFileMap linkedNodesConfigFileMap = new ExeConfigurationFileMap();
-                var filePath = HttpContext.Current.Server.MapPath("/") +
+                var filePath = System.Web.Hosting.HostingEnvironment.MapPath("/") +
                                "\\App_Plugins\\b5LinkedNodesContentApp\\linkedNodes.config";
                 linkedNodesConfigFileMap.ExeConfigFilename = filePath;
 
                 return ConfigurationManager.OpenMappedExeConfiguration(linkedNodesConfigFileMap,
                     ConfigurationUserLevel.None);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }
